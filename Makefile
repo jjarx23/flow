@@ -1,7 +1,7 @@
 TITLE := flow
 OUT := $(TITLE)
 CC := gcc
-CFLAGS := -c -I../Object
+CFLAGS := -c
 LDFLAGS := -L$$HOME 
 GCFLAGS := -ggdb -Og
 OBJDIR := ../builds/$(TITLE)_obj/
