@@ -2,7 +2,7 @@
 #define FLOW_H
 
 #define FLOW_VERSION_MAJOR 0
-#define FLOW_VERSION_MINOR 2
+#define FLOW_VERSION_MINOR 3
 
 #ifdef __cplusplus
 extern 'C'
@@ -16,6 +16,8 @@ extern 'C'
         void *(*divide)(void *, void *, ...);
         void *(*subtract)(void *, void *, ...);
         void *(*power)(void *, void *, ...);
+        void *(*xcorrelate)(void *, void *, ...);
+        void *(*dot)(void *, void *, ...);
     };
     struct Flow_st
     {
